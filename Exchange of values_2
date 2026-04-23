@@ -1,0 +1,21 @@
+#include <iostream>
+
+void swap(int& value_a, int& value_b)
+{
+    int temporary = value_a;
+    value_a = value_b;
+    value_b = temporary;
+}
+
+int main(int argc, char** argv)
+{
+    int a = 5, b = 8;
+
+    std::cout << "a = " << a << ", b = " << b << std::endl;
+
+    swap(a, b);
+
+    std::cout << "a = " << a << ", b = " << b << std::endl;
+
+    return EXIT_SUCCESS;
+}
