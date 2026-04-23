@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main() 
+{
     short sho_rt;
     int in_t;
     long lo_ng;
