@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+    short sho_rt;
+    int in_t;
+    long lo_ng;
+    long long long_Long;
+    float floa_t;
+    double dou_ble;
+    long double long_Doubl;
+    bool bo_ol;
+
+    std::cout << "short: " << &sho_rt << " " << sizeof(sho_rt) << std::endl;
+    std::cout << "int: " << &in_t << " " << sizeof(in_t) << std::endl;
+    std::cout << "long: " << &lo_ng << " " << sizeof(lo_ng) << std::endl;
+    std::cout << "long long: " << &long_Long << " " << sizeof(long_Long) << std::endl;
+    std::cout << "float: " << &floa_t << " " << sizeof(floa_t) << std::endl;
+    std::cout << "double: " << &dou_ble << " " << sizeof(dou_ble) << std::endl;
+    std::cout << "long double: " << &long_Doubl << " " << sizeof(long_Doubl) << std::endl;
+    std::cout << "bool: " << &bo_ol << " " << sizeof(bo_ol) << std::endl;
+
+    return EXIT_SUCCESS;
+}
